@@ -18,6 +18,9 @@ class Sample:
       c=a/b
     expect zerodivisionError:
       print("skip the line')
+            
+  def m2(self):
+      print('Praveen update m2 method')
       
 s=Sample()
 s.add(10,20,30)
