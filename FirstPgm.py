@@ -11,8 +11,16 @@ class Sample:
   def mul(self, a,b)
     c=a*b
     print("mul result=",c)
+    
+  def div(self, a=10,b=0)
+  
+    try:
+      c=a/b
+    expect zerodivisionError:
+      print("skip the line')
       
 s=Sample()
 s.add(10,20,30)
 s.sub(20,10)
 s.mul(6,6)
+s.div(10)
