@@ -19,6 +19,9 @@ class Sample:
     expect zerodivisionError:
       print("skip the line')
       
+  def m1(self):
+      print("Arul write m1 method)
+            
 s=Sample()
 s.add(10,20,30)
 s.sub(20,10)
