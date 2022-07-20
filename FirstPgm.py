@@ -23,7 +23,12 @@ class Sample:
       print('Praveen update m2 method')
       
   def m1(self):
-      print("Arul write m1 method)
+      print("Arul write m1 method")
+            
+  def m3(self):
+      a,b=10,20
+      c=a+b
+      print("M3 result is",m3)
             
 s=Sample()
 s.add(10,20,30)
