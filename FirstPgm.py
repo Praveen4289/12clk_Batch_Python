@@ -21,6 +21,11 @@ class Sample:
             
   def m2(self):
       print('Praveen update m2 method')
+            
+ def m3(self):
+      a,b,c=10,20,40
+      d=a+b+c
+      print("M3 result is",d)
       
   def m1(self):
       print("Arul write m1 method")
