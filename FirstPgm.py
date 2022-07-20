@@ -35,6 +35,9 @@ class Sample:
       c=a+b
       print("M3 result is",c)
             
+  def m4(self):
+      print("Hi")
+            
 s=Sample()
 s.add(10,20,30)
 s.sub(20,10)
