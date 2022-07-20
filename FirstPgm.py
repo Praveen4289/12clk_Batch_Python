@@ -28,7 +28,7 @@ class Sample:
   def m3(self):
       a,b=10,20
       c=a+b
-      print("M3 result is",m3)
+      print("M3 result is",c)
             
 s=Sample()
 s.add(10,20,30)
