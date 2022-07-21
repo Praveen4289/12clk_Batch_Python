@@ -31,6 +31,10 @@ class Sample:
             
   def m4(self):
       print("Hi")
+  
+  def test(self)
+      print('test ok')  
+          
             
 s=Sample()
 s.add(10,20,30)
