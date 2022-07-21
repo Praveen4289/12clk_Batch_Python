@@ -21,12 +21,21 @@ class Sample:
             
   def m2(self):
       print('Praveen update m2 method')
-            
- def m3(self):
-      a,b,c=10,20,40
-      d=a+b+c
-      print("M3 result is",d)
       
+  def m1(self):
+      print("Arul write m1 method")
+
+            
+  def m4(self):
+      print("Hi")
+            
+  def m4(self):
+      print("Hi")
+  
+  def test(self)
+      print('test ok')  
+          
+            
 s=Sample()
 s.add(10,20,30)
 s.sub(20,10)
